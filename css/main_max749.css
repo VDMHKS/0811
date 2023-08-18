@@ -1,0 +1,660 @@
+@charset "utf-8";
+
+@media (max-width:749px) {
+
+       #slider {
+              width: 100%;
+              min-height: 75vw;
+              background: url("../img/slider.jpg");
+              background-position: center;
+              background-size: cover;
+              display: flex;
+              align-items: flex-end;
+       }
+
+       #slider>#container {
+              width: 100%;
+              height: 270px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+       }
+
+       #slider>#container>#text {
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+              align-items: center;
+       }
+
+       #slider>#container>#text>h3 {
+              color: #fff;
+              font-size: 30px;
+              letter-spacing: 1px;
+              font-weight: bold;
+              font-family: arial;
+       }
+
+       #slider>#container>#text>a {
+              margin-top: 32px;
+              text-decoration: none;
+              background-color: rgb(255, 205, 3);
+              width: 105px;
+              padding: 14px 30px;
+              text-align: center;
+              color: #000;
+              font-weight: 1000;
+              letter-spacing: 1.5px;
+       }
+
+
+       section>#favorite {
+              width: 100%;
+              height: auto;
+              padding: 68px 0 60px 0px;
+              background-color: rgb(255, 250, 234);
+       }
+
+       section>#favorite>#content {
+              width: 95%;
+              height: 100%;
+              margin: 0 auto;
+       }
+
+       section>#favorite>#content>#head {
+              width: 420px;
+              height: 30px;
+              display: flex;
+              justify-content: space-between;
+              margin-bottom: 30px;
+              margin: 0 auto;
+              margin-bottom: 60px;
+       }
+
+       section>#favorite>#content>#head>h3 {
+              font-size: 28px;
+              font-weight: bold;
+              line-height: 1;
+              font-family: arial;
+       }
+
+       section>#favorite>#content>#main {
+              width: 100%;
+              height: auto;
+       }
+
+       section>#favorite>#content>#main>ul {
+              height: auto;
+              display: flex;
+              flex-direction: row;
+              padding: 0px 30px;
+              justify-content: center;
+       }
+
+       section>#favorite>#content>#main>ul>li {
+              width: 100%;
+              height: auto;
+              margin: 0px 10px;
+       }
+
+       section>#favorite>#content>#main>ul>li>.imgbox {
+              width: 100%;
+              height: auto;
+       }
+
+       section>#favorite>#content>#main>ul>li>.imgbox>img {
+              width: 100%;
+              height: auto;
+       }
+
+       section>#favorite>#content>#main>ul>li>.imgbox>img:hover {
+              cursor: pointer;
+              border: 5px solid rgb(255, 205, 3);
+       }
+
+       section>#favorite>#content>#main>ul>li>.textbox>div {
+              width: auto;
+              height: auto;
+              margin-top: 10px;
+              text-align: center;
+              letter-spacing: 1px;
+       }
+
+       section>#favorite>#content>#main>ul>li>.textbox>#text1 {
+              line-height: 25px;
+              font-weight: bold;
+              font-family: arial;
+       }
+
+       section>#favorite>#content>#main>ul>li>.textbox>#text2 {
+              color: rgb(255, 205, 3);
+       }
+
+       section>#favorite>#content>#main>ul>li>.textbox>#text3 {
+              font-family: "Courier New", Courier, monospace;
+              font-size: 12px;
+       }
+
+       section>#favorite>#content>#main>ul>li>.textbox>#text4 {
+              font-family: "Courier New", Courier, monospace;
+              font-size: 12px;
+       }
+
+       section>#video1 {
+              width: 100%;
+              height: 60vw;
+              overflow: hidden;
+              position: relative;
+       }
+
+       section>#video1>.videobox {
+              width: 100%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+       }
+
+       section>#video1>.videobox>video {
+              width: 100% !important;
+              min-height: 100% !important;
+              object-fit: cover;
+       }
+
+       section>#video1>.videobox>.videotext {
+              position: absolute;
+              top: 50%;
+              width: 1512px;
+              height: 30px;
+       }
+
+       section>#video1>.videobox>.videotext>p {
+              font-family: 'Courier New';
+              font-size: 25px;
+              color: #fff;
+              position: absolute;
+              text-align: center;
+       }
+
+       section>#product {
+              width: 100%;
+              height: auto;
+              padding: 80px 0 0px 0px;
+              margin: 0 auto;
+              min-height: 650px;
+       }
+
+       section>#product>#content {
+              max-width: 95%;
+              height: 100%;
+              margin: 0 auto;
+       }
+
+       section>#product>#content>#head {
+              width: 360px;
+              height: 30px;
+              display: flex;
+              justify-content: space-between;
+              margin: 0 auto;
+       }
+
+       section>#product>#content>#head>h3 {
+              font-size: 28px;
+              font-weight: bold;
+              margin-bottom: 5px;
+              font-family: arial;
+       }
+
+       section>#product>#content>#main {
+              width: 100%;
+              height: auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              margin-top: 40px;
+       }
+
+       section>#product>#content>#main>.imgbox {
+              width: 100%;
+              height: auto;
+       }
+
+       section>#product>#content>#main>.imgbox>img {
+              width: 100%;
+              height: auto;
+       }
+
+       section>#product>#content>#main>.imgbox>img:hover {
+              cursor: pointer;
+              border: 5px solid rgb(255, 205, 3);
+       }
+
+       section>#product>#content>#main>.textbox {
+              width: 95%;
+              height: auto;
+              margin-left: 0px;
+       }
+
+       section>#product>#content>#main>.textbox>#textimg {
+              width: 100%;
+              height: 144px;
+              display: none;
+       }
+
+       section>#product>#content>#main>.textbox>#textimg>img {
+              width: 100%;
+              height: 100%;
+       }
+
+       section>#product>#content>#main>.textbox>#text1 {
+              line-height: 25px;
+              margin-top: 10px;
+              display: flex;
+              justify-content: space-between;
+              font-size: 21px;
+              margin-top: 20px;
+              letter-spacing: 2px;
+       }
+
+       section>#product>#content>#main>.textbox>#text1>h1 {
+              font-weight: bold;
+              font-family: arial;
+       }
+
+       section>#product>#content>#main>.textbox>#text1>p {
+              font-family: "Courier New", Courier, monospace;
+       }
+
+       section>#product>#content>#main>.textbox>#text2 {
+              color: rgb(255, 205, 3);
+              margin-top: 25px;
+              font-family: "Courier New", Courier, monospace;
+              font-size: 17px;
+              text-align: center;
+       }
+
+       section>#product>#content>#main>.textbox>#text3 {
+              font-family: "Courier New", Courier, monospace;
+              font-size: 14px;
+              margin-top: 15px;
+              line-height: 24px;
+              letter-spacing: .04em;
+              -webkit-text-stroke: 0.2px black;
+              text-align: center;
+              margin-bottom: 20px;
+       }
+
+       section>#product>#content>#main>.textbox>a>#btn {
+              border: 1px solid #000;
+              width: 90%;
+              height: 47px;
+              padding: 0px 35px;
+              margin-top: 20px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-size: 14px;
+              font-weight: bold;
+              color: #000;
+              letter-spacing: 2px;
+              vertical-align: middle;
+              transition: 1s;
+              font-family: arial;
+              margin: 0 auto;
+       }
+
+       section>#product>#content>#main>.textbox>a>#btn:hover {
+              background-color: rgb(255, 205, 3);
+       }
+
+       section>#product>#content>#main>.textbox>a {
+              text-decoration: none;
+              text-align: center;
+       }
+
+       section>#product>#content>#main>.textbox>p {
+              font-size: 12px;
+              font-family: 'Courier New';
+              text-align: center;
+              margin-top: 25px;
+              letter-spacing: 0.5px;
+              -webkit-text-stroke: 0.2px black;
+       }
+
+       section>#virtual> {
+              width: 100%;
+              height: auto;
+       }
+
+       section>#virtual>#virbox {
+              width: 95%;
+              max-width: 1520px;
+              height: 100%;
+              margin: 0 auto;
+              display: flex;
+              align-items: center;
+              padding: 50px 0px 0 0px;
+              flex-direction: column;
+       }
+
+       section>#virtual>#virbox>.virimg {
+              width: 95%;
+              height: auto;
+              padding-top: 50px;
+       }
+
+       section>#virtual>#virbox>.virimg>img {
+              width: 100%;
+              height: auto;
+       }
+
+       section>#virtual>#virbox>.virtext {
+              width: 100%;
+              height: 214.906px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+       }
+
+       section>#virtual>#virbox>.virtext>h3 {
+              font-size: 30px;
+              line-height: 1.04;
+              letter-spacing: -0.8px;
+              font-family: arial;
+              font-weight: bold;
+       }
+
+       section>#virtual>#virbox>.virtext>p {
+              font-size: 16px;
+              font-family: "Courier New", Courier, monospace;
+              margin-top: 30px;
+              letter-spacing: 1px;
+              text-align: center;
+              width: 95%;
+       }
+
+       section>#virtual>#virbox>.virtext>a {
+              font-size: 16px;
+              font-family: "Courier New", Courier, monospace;
+              color: #000;
+              margin-top: 35px;
+              letter-spacing: 1px;
+       }
+
+       section>#photobox {
+              width: 100%;
+              min-height: 100vw;
+              background: url("../img/back.webp");
+              background-position: center;
+              background-size: cover;
+              margin-top: 40px;
+              display: flex;
+              align-items: center;
+       }
+
+       section>#photobox>#text {
+              width: 643px;
+              height: 60px;
+              font-size: 25px;
+              font-family: "Courier New";
+              margin: 0 auto;
+              color: #fff;
+              letter-spacing: 0.8px;
+              text-align: center;
+       }
+
+       section>#collect {
+              width: 100%;
+              height: auto;
+              padding: 50px 0px;
+              background-color: rgb(255, 250, 234);
+              min-height: 500px;
+       }
+
+       section>#collect>#collectbox {
+              width: 95%;
+              height: 100%;
+              margin: 0 auto;
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+              max-width: 1520px;
+       }
+
+       section>#collect>#collectbox>.box {
+              width: 90%;
+              height: auto;
+              margin: 0 auto;
+              margin-top: 30px;
+       }
+
+       section>#collect>#collectbox>.box>.imgbox {
+              background-color: #FFCD03;
+              width: 100%;
+              height: 55vw;
+       }
+
+       section>#collect>#collectbox>.box>.imgbox>a>img {
+              width: 100%;
+              height: 100%;
+              transition: 0.5s;
+              object-fit: cover;
+       }
+
+       section>#collect>#collectbox>.box>.imgbox>a>img:hover {
+              opacity: 0.5;
+       }
+
+       section>#collect>#collectbox>.box>.textbox>h4 {
+              margin-top: 15px;
+       }
+
+       section>#collect>#collectbox>.box>.textbox>h4>a {
+              font-size: 12px;
+              font-family: "Courier New";
+              text-decoration: none;
+              color: #000;
+              margin-top: 20px;
+              text-transform: uppercase;
+              letter-spacing: 0.8px;
+              line-height: 20px;
+              -webkit-text-stroke: 0.2px black;
+       }
+
+       section>#collect>#collectbox>.box>.textbox>h5 {
+              margin-top: 15px;
+       }
+
+       section>#collect>#collectbox>.box>.textbox>h5>a {
+              font-size: 15px;
+              text-decoration: none;
+              color: #000;
+              font-weight: bold;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+              line-height: 20px;
+              font-family: arial;
+       }
+
+       section>#collect>#collectbox>.box>.textbox>p {
+              font-size: 11px;
+              font-family: "Courier New";
+              margin: 35px 0px 10px 0px;
+              letter-spacing: 0.5px;
+              -webkit-text-stroke: 0.2px black;
+       }
+
+       section>#collect>#collectbox>.box>.textbox>a {
+              font-size: 12px;
+              color: #000;
+              font-family: "Courier New";
+              -webkit-text-stroke: 0.2px black;
+       }
+
+       section>#insta {
+              width: 100%;
+              height: 39vw;
+              background-color: #000;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              box-sizing: border-box !important;
+       }
+
+       section>#insta>#instatext {
+              color: #fff;
+              width: 100%;
+              height: 100%;
+              min-width: 230px;
+       }
+
+       section>#insta>#instatext>h3 {
+              font-size: 25px;
+              line-height: 31px;
+              text-align: center;
+              letter-spacing: 1px;
+              margin-bottom: 10px;
+              width: 100%;
+              display: block;
+              margin-top: 50px;
+              font-family: arial;
+              font-weight: bold;
+       }
+
+       section>#insta>#instatext>p {
+              font-family: "Courier New";
+              text-align: center;
+              letter-spacing: 1px;
+              width: 100%;
+              display: block;
+       }
+
+       section>#insta>#instabox {
+              width: 52%;
+              height: 100%;
+              display: flex;
+              flex-wrap: wrap;
+              display: none;
+       }
+
+       section>#insta>#instabox>.imgbox {
+              width: 33%;
+              height: 50%;
+              background-color: #fff;
+       }
+
+       section>#insta>#instabox>.imgbox>img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+       }
+
+       section>#insta>#instabox>.imgbox>img:hover {
+              opacity: 0.3;
+       }
+
+       section>#insta>#instabox2 {
+              width: 17%;
+              height: 100%;
+              display: flex;
+              flex-wrap: wrap;
+              display: none;
+       }
+
+       section>#insta>#instabox2>.imgbox {
+              width: 100%;
+              height: 50%;
+              background-color: #fff;
+       }
+
+       section>#insta>#instabox2>.imgbox>img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+       }
+
+       section>#insta>#instabox2>.imgbox>img:hover {
+              opacity: 0.3;
+       }
+
+       section>#join {
+              width: 100%;
+              height: auto;
+              background-color: #000;
+              padding: 44px 0 35px 0px;
+       }
+
+       section>#join>#container {
+              width: 95%;
+              display: flex;
+              justify-content: space-evenly;
+              margin: 0 auto;
+              flex-wrap: wrap;
+       }
+
+       section>#join>#container>#joinbox1 {
+              font-size: 21px;
+              color: #fff;
+              width: 214px;
+              height: 40px;
+              line-height: 40px;
+              text-align: center;
+              padding-top: 10px;
+              font-family: Arial;
+              font-weight: bold;
+              letter-spacing: 2px;
+       }
+
+       section>#join>#container>#joinbox2 {
+              width: 430px;
+              height: 44px;
+              color: #fff;
+              -webkit-text-stroke: 0.2px white;
+              font-family: "Courier New", Courier, monospace;
+              line-height: 22px;
+              text-align: center;
+              padding-top: 10px;
+       }
+
+       section>#join>#container>#joinbox3 {
+              width: 95%;
+              height: 69px;
+              padding-top: 20px;
+       }
+
+       section>#join>#container>#joinbox3>input {
+              width: 43%;
+              height: 50px;
+              padding: 0px 18px;
+              border: 1px solid #FFCD03;
+              background: #000;
+              box-shadow: none;
+              outline: none;
+              color: white;
+              float: left;
+       }
+
+       section>#join>#container>#joinbox3>button {
+              background-color: #FFCD03;
+              width: 47%;
+              height: 52px;
+              border: none;
+              margin-left: -5px;
+              font-size: 19px;
+              font-weight: bold;
+              cursor: pointer;
+       }
+
+       section>#join>#container>#joinbox3>span {
+              font-family: "Courier New", Courier, monospace;
+              font-size: 13px;
+              color: #fff;
+              display: block;
+       }
+
+       section>#join>#container>#joinbox3>span>a {
+              margin-left: 10px;
+              color: #fff;
+       }
+}

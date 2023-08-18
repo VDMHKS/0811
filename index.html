@@ -6,66 +6,16 @@
     <title>MOSCOT Eyewear</title>
     <link href="css/reset.css" rel="stylesheet">
 
-    <style>
-        .yellow {width: 100%; height: 39.703px; background-color: rgb(255, 205, 3);}
-        .yellow > .shipping {width: 495px; height: 100%; font-family: "Courier New", Courier, monospace; font-size: 15px; margin:0 auto; display: flex; align-items: center; justify-content: center; -webkit-text-stroke: 0.2px black;}
-        .black {width: 100%; height: 73px; background-color: #000;}
-        .black > .container {width: 95%; height: 100%; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0px 40px;}
-        .black > .container > .logo {width: 344px;}
-        .black > .container > .logo > a > svg {max-width: 171px;}
-        .black > .container > nav {width:630px;}
-        .black > .container > nav > ul {display: flex; justify-content: space-between;}
-        .black > .container > nav > ul > li > a {text-decoration: none; color: #fff; font-family: "Courier New", Courier, monospace; font-size: 16px; font-weight: bold; letter-spacing: 1.5px;}
-        .black > .container > .link {width:344px; }
-        .black > .container > .link > .linkicons {width: 230px; height: auto; float: right; display: flex; justify-content: space-between; align-items: center;}
-        .black > .container > .link > .linkicons > #lan {width: 93px; height: 40px; display: flex; align-items: center; justify-content: space-around;}
-        .black > .container > .link > .linkicons > #lan > .currency {color: #fff; font-family: "Courier New", Courier, monospace;}
-        .black > .container > .link > .linkicons > a {width: 35px; height: 35px; display: flex; align-items: center;}
+    <link href="css/common_main_max749.css" rel="stylesheet">
+    <link href="css/common_main_min750.css" rel="stylesheet">
+    <link href="css/common_main_min1000.css" rel="stylesheet">
+    <link href="css/common_main_min1200.css" rel="stylesheet">
 
-        #slider {width: 100%; min-height: 40vw; background:url(img/slider.jpg); background-position: center; background-size: cover; display: flex; align-items: flex-end;}
-        #slider > #container {width: 100%; height: 270px; display: flex; align-items: center; justify-content: center;}
-        #slider > #container > #text {display: flex; justify-content: center; flex-direction: column; align-items: center;}
-        #slider > #container > #text > h3 {color: #fff; font-size: 30px; letter-spacing: -0.9px; font-weight: 1000;}
-        #slider > #container > #text > a {margin-top: 32px; text-decoration: none; background-color: rgb(255, 205, 3); width: 105px; padding: 14px 30px; text-align: center; color: #000; font-weight: 1000; letter-spacing: 1.5px;}
+    <link href="css/main_max749.css" rel="stylesheet">
+    <link href="css/main_min750.css" rel="stylesheet">
+    <link href="css/main_min1000.css" rel="stylesheet">
+    <link href="css/main_min1200.css" rel="stylesheet">
 
-
-        section > #favorite {width: 100%; height: 567px; padding: 68px 0 60px 0px; background-color: rgb(255, 250, 234);}
-        section > #favorite > #content {width:95%; height: 100%; margin:0 auto; display: flex; justify-content: space-between; flex-direction: column; align-items: center; }
-        section > #favorite > #content > #head {width:420px; height: 30px; display: flex; justify-content: space-between;}
-        section > #favorite > #content > #head > h3 {font-size: 28px; font-weight: 1000; line-height: 1;}
-        section > #favorite > #content > #main {width: 100%; height: 477px;}
-        section > #favorite > #content > #main > ul { display: flex; justify-content: space-evenly; padding:0px 30px;}
-        section > #favorite > #content > #main > ul > li {width: 415px; height: 477px; }
-        section > #favorite > #content > #main > ul > li > .imgbox {width: 100%; height: 312px;}
-        section > #favorite > #content > #main > ul > li > .imgbox > img {width: 100%; height: 100%; }
-        section > #favorite > #content > #main > ul > li > .imgbox > img:hover {cursor:pointer; border:5px solid rgb(255, 205, 3); }
-        section > #favorite > #content > #main > ul > li > .textbox > div {width: 100%; margin-top: 10px; text-align: center; letter-spacing: 1px;}
-        section > #favorite > #content > #main > ul > li > .textbox > #text1 {line-height: 25px; font-weight: bold;}
-        section > #favorite > #content > #main > ul > li > .textbox > #text2 { color:rgb(255, 205, 3);}
-        section > #favorite > #content > #main > ul > li > .textbox > #text3 {font-family: "Courier New", Courier, monospace; font-size: 12px;}
-        section > #favorite > #content > #main > ul > li > .textbox > #text4 {font-family: "Courier New", Courier, monospace; font-size: 12px;}
-
-        section > #video1 {width: 100%; height: 649px ;}
-        section > #video1 > #video {width: 100%; height: 100%;}
-
-        section > #product {width: 100%; height: 850px; padding: 80px 0 60px 0px; }
-        section > #product > #content {width:95%; height: 100%; margin:0 auto;}
-        section > #product > #content > #head {width:320px; height: 30px; display: flex; justify-content: space-between; margin:0 auto;}
-        section > #product > #content > #head > h3 {font-size: 28px; font-weight: 1000; margin-bottom: 5px;}
-        section > #product > #content > #main {width: 100%; height: auto; display: flex; flex-direction: row; justify-content: center; margin-top: 40px; }
-        section > #product > #content > #main > .imgbox {width: 929px; height: 706px;}
-        section > #product > #content > #main > .imgbox > img {width: 100%; height: 100%; }
-        section > #product > #content > #main > .imgbox > img:hover {cursor:pointer; border:5px solid rgb(255, 205, 3); }
-        section > #product > #content > #main > .textbox {width:432px ; height: 608px; margin-left: 50px;}
-        section > #product > #content > #main > .textbox > #textimg {margin:0;}
-        section > #product > #content > #main > .textbox > #text1 {line-height: 25px; margin-top: 10px; display: flex; justify-content: space-between; font-size: 21px; margin-top: 20px;}
-        section > #product > #content > #main > .textbox > #text1 > h1 {font-weight: bold;}
-        section > #product > #content > #main > .textbox > #text1 > p {font-family: "Courier New", Courier, monospace;}
-        section > #product > #content > #main > .textbox > #text2 { color:rgb(255, 205, 3); margin-top: 10px; font-family: "Courier New", Courier, monospace; font-size: 17px;}
-        section > #product > #content > #main > .textbox > #text3 {font-family: "Courier New", Courier, monospace; font-size: 14px; margin-top: 10px; line-height: 24px; letter-spacing: .04em; font-weight: bolder; }
-
-
-    </style>
 
 </head>
 
@@ -82,6 +32,19 @@
 
         <div class="black">
             <div class="container">
+                <div id="list">
+                    <a href="#" class="search">
+                        <svg focusable="false" width="18" height="14" class="icon icon--header-hamburger   " viewBox="0 0 18 14">
+                            <path d="M0 1h18M0 13h18H0zm0-6h18H0z" fill="none" stroke="currentColor" stroke-width="2"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="white" style="margin-left: 3px;">
+                            <path d="M19.7878 18.079L24.9631 23.253L23.2533 24.9628L18.0792 19.7875C16.154 21.3308 13.7594 22.1703 11.292 22.1667C5.28899 22.1667 0.416992 17.2947 0.416992 11.2917C0.416992 5.28875 5.28899 0.416748 11.292 0.416748C17.295 0.416748 22.167 5.28875 22.167 11.2917C22.1705 13.7592 21.3311 16.1538 19.7878 18.079ZM17.3639 17.1824C18.8974 15.6054 19.7538 13.4914 19.7503 11.2917C19.7503 6.61791 15.9646 2.83341 11.292 2.83341C6.61816 2.83341 2.83366 6.61791 2.83366 11.2917C2.83366 15.9644 6.61816 19.7501 11.292 19.7501C13.4917 19.7535 15.6056 18.8971 17.1826 17.3636L17.3639 17.1824V17.1824Z" fill="white"></path>
+                        </svg>
+                    </a>
+                </div>
+
                 <div class="logo">
                     <a href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" width="372" height="63" viewBox="0 0 372 63" fill="none"> <path d="M106.04 0.248047C123.376 0.248047 137.282 14.0713 137.282 31.4898C137.282 48.9083 123.376 62.6282 106.309 62.6282C89.345 62.7315 75.2325 48.7223 75.2325 31.9237C75.2325 15.1251 88.9731 0.248047 106.04 0.248047ZM106.123 48.9909C115.276 48.9909 122.55 41.1805 122.55 31.4898C122.55 21.799 115.276 13.8853 106.309 13.8853C97.3414 13.8853 89.9649 21.7784 89.9649 31.2212C89.9649 40.6639 97.1555 48.9909 106.123 48.9909Z" fill="#FFCD03"></path> <path d="M184.805 16.2201C178.441 14.3398 174.928 13.6166 171.622 13.6166C168.75 13.6166 166.953 15.0423 166.953 17.3978C166.953 19.3608 168.027 20.6212 171.085 22.1502C171.808 22.5015 173.337 23.328 175.755 24.671C183.028 28.5349 183.648 28.9895 186.086 30.7665C190.404 34.1758 192.739 38.9488 192.739 44.2384C192.739 55.1896 183.854 63 171.478 63C168.337 63 163.213 62.2975 159.349 61.471C156.663 60.8511 155.03 60.2932 150.732 58.7848L154.142 44.9616C157.82 46.3047 159.163 46.7593 161.332 47.3998C165.733 48.6602 169.308 49.2801 172.015 49.2801C175.073 49.2801 177.222 47.2138 177.222 44.1558C177.222 41.3663 176.499 40.8291 168.42 36.614C160.981 32.7707 159.535 31.9442 156.931 29.692C153.419 26.634 151.621 22.6874 151.621 17.7698C151.621 7.25254 159.886 0 171.911 0C174.866 0 178.379 0.433913 182.594 1.44638C184.66 1.9836 186.003 2.33486 189.785 3.42998L184.846 16.2614L184.805 16.2201Z" fill="#FFCD03"></path> <path d="M249.168 17.6664C248.28 17.0466 247.557 16.6746 247.102 16.406C244.044 14.7943 240.366 13.8852 237.246 13.8852C228.526 13.8852 221.439 21.7783 221.439 31.6549C221.439 41.5316 228.63 49.0734 237.969 49.0734C242.184 49.0734 245.408 47.8957 250.449 44.4864L252.598 59.3014C251.627 59.756 250.904 60.1072 250.449 60.2932C246.751 61.8222 241.998 62.7314 237.887 62.7314C220.468 62.7314 206.728 48.9081 206.728 31.3863C206.728 13.8645 220.53 0.165283 238.589 0.165283C240.573 0.165283 242.639 0.351246 244.519 0.702508C247.205 1.2604 248.734 1.69431 252.247 3.03737L249.189 17.6664H249.168Z" fill="#FFCD03"></path> <path d="M293.821 0.248047C311.157 0.248047 325.063 14.0713 325.063 31.4898C325.063 48.9083 311.157 62.6282 294.09 62.6282C277.126 62.7315 263.034 48.7223 263.034 31.9237C263.034 15.1251 276.775 0.248047 293.821 0.248047ZM293.904 48.9909C303.057 48.9909 310.331 41.1805 310.331 31.4898C310.331 21.799 303.057 13.8853 294.09 13.8853C285.122 13.8853 277.767 21.7784 277.767 31.2212C277.767 40.6639 284.957 48.9909 293.925 48.9909" fill="#FFCD03"></path> <path d="M371.491 1.48779V14.7118H361.511V61.3678H347.254V14.7118H335.477L337.543 1.48779H371.491Z" fill="#FFCD03"></path> <path d="M19.4021 1.32251L32.1509 29.6095L45.1683 1.32251H47.8544L64.6323 63.0001H49.7347L42.916 37.3166L32.1509 61.5744L21.2824 37.6059L14.4638 63.0001H0L16.6953 1.32251H19.4021Z" fill="#FFCD03"></path>
@@ -113,8 +76,8 @@
                             <path d="M14.5003 23.2001C11.4795 23.2001 8.80907 21.6534 7.25033 19.3334C7.28658 16.9167 12.0837 15.5876 14.5003 15.5876C16.917 15.5876 21.7141 16.9167 21.7503 19.3334C20.9515 20.5229 19.8724 21.4977 18.6081 22.172C17.3439 22.8463 15.9332 23.1993 14.5003 23.2001ZM14.5003 6.04175C15.4617 6.04175 16.3838 6.42367 17.0636 7.10349C17.7434 7.78331 18.1253 8.70534 18.1253 9.66675C18.1253 10.6282 17.7434 11.5502 17.0636 12.23C16.3838 12.9098 15.4617 13.2917 14.5003 13.2917C13.5389 13.2917 12.6169 12.9098 11.9371 12.23C11.2572 11.5502 10.8753 10.6282 10.8753 9.66675C10.8753 8.70534 11.2572 7.78331 11.9371 7.10349C12.6169 6.42367 13.5389 6.04175 14.5003 6.04175ZM14.5003 2.41675C12.9135 2.41675 11.3423 2.72929 9.87623 3.33654C8.41022 3.94378 7.07816 4.83383 5.95612 5.95587C3.69005 8.22194 2.41699 11.2954 2.41699 14.5001C2.41699 17.7048 3.69005 20.7782 5.95612 23.0443C7.07816 24.1663 8.41022 25.0564 9.87623 25.6636C11.3423 26.2709 12.9135 26.5834 14.5003 26.5834C17.705 26.5834 20.7785 25.3104 23.0445 23.0443C25.3106 20.7782 26.5837 17.7048 26.5837 14.5001C26.5837 7.818 21.1462 2.41675 14.5003 2.41675Z" fill="white"></path>
                             </svg>
                         </a>
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="white">
+                        <a href="#" class="search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="white" style="margin-left: 3px;">
                                 <path d="M19.7878 18.079L24.9631 23.253L23.2533 24.9628L18.0792 19.7875C16.154 21.3308 13.7594 22.1703 11.292 22.1667C5.28899 22.1667 0.416992 17.2947 0.416992 11.2917C0.416992 5.28875 5.28899 0.416748 11.292 0.416748C17.295 0.416748 22.167 5.28875 22.167 11.2917C22.1705 13.7592 21.3311 16.1538 19.7878 18.079ZM17.3639 17.1824C18.8974 15.6054 19.7538 13.4914 19.7503 11.2917C19.7503 6.61791 15.9646 2.83341 11.292 2.83341C6.61816 2.83341 2.83366 6.61791 2.83366 11.2917C2.83366 15.9644 6.61816 19.7501 11.292 19.7501C13.4917 19.7535 15.6056 18.8971 17.1826 17.3636L17.3639 17.1824V17.1824Z" fill="white"></path>
                             </svg>
                         </a>
@@ -207,7 +170,14 @@
         </div>
 
         <div id="video1">
-            <iframe id="video" src="https://player.vimeo.com/video/276908465?background=1&loop=1&transparent=0&responsive=1&portrait=0&title=0&byline=0&color=000000" allow="autoplay; fullscreen"></iframe>
+            <div class="videobox">
+                <video muted autoplay loop>
+                    <source src="img/1034965100.mp4" type="video/mp4">
+                </video>
+                <div class="videotext">
+                    <p>"The brand doesn’t chase trends, relying instead on its long history of making eyeglasses to offer the styles people want at any given moment."</p>
+                </div>
+            </div>
         </div>
 
         <div id="product">
@@ -222,24 +192,227 @@
                         </svg>
                 </div>
                 <div id="main">
-                    <div class="imgbox"><img src="img/lemtosh.webp" alt=""></div>
+                    <div class="imgbox"><img src="img/lemtosh_big.webp" alt=""></div>
                     <div class="textbox">
                         <div id="textimg"><img src="img/lemtoshfitting.avif" alt=""></div>
                         <div id="text1"><h1>LEMTOSH</h1><p>$320.00</p></div>
                         <div id="text2">★★★★★<span style="font-size: 11px; color: #000; margin-left: 5px; text-decoration: underline;">603 review</span></div>
                         <div id="text3">The LEMTOSH stands the test of time with its iconic design and continues to uphold a legacy of its own. This rounder classic has served as the calling card for generations of creative, thoughtful, free-spirited intellectuals, artistes, and auteurs.</div>
-                        
+                        <a href="#"><div id="btn">DISCOVER THE LEMTOSH</div></a>
+                        <p>TRUST US. WE’VE BEEN DOING THIS FOR 108 YEARS.</p>
                     </div>
                 </div>
             </div>
         </div>
 
+        <div id="virtual">
+            <div id="virbox">
+                <div class="virimg">
+                    <img src="img/virtual.webp" alt="">
+                </div>
+                <div class="virtext">
+                    <h3>VIRTUAL TRY-ON</h3>
+                    <p>Try before you buy! Virtually try-on our signature style, The LEMTOSH, available in 4 sizes. Our virtual glasses fitting, powered by true-to-scale technology, provides a realistic view of how the frame will look on your face.</p>
+                    <a href="#">FIND YOUR FIT</a>
+                </div>
+            </div>
+        </div>
 
+        <div id="photobox">
+            <div id="text">
+                <p>Framing New Yorkers Since 1915. Literally.</p>
+            </div>
+        </div>
 
+        <div id="collect">
+            <div id="collectbox">
+                <div class="box">
+                    <div class="imgbox">
+                        <a href="#"><img src="img/roadtrip.webp" alt=""></a>
+                    </div>
+                    <div class="textbox">
+                        <h4><a href="#">Good Stuff</a></h4>
+                        <h5><a href="#">The Spring 2023 Collection MOSCOT Road Trip</a></h5>
+                        <p>This Spring, we’re taking a Road Trip out of New York City to find creative inspiration. The Spring 2023 Campaign speaks to artistic freedom, originality, and the beauty of the creative journey to ...</p>
+                        <a href="#">READ MORE</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgbox">
+                        <a href="#"><img src="img/front.webp" alt=""></a>
+                    </div>
+                    <div class="textbox">
+                        <h4><a href="#">Good Stuff</a></h4>
+                        <h5><a href="#">108 Years at MOSCOT</a></h5>
+                        <p>MOSCOT is 108 and feeling great! Take a stroll down memory lane as we recap our 100+ years in the biz.
+                        1899, Hyman Moscot, 1st Generation 
+                        The MOSCOT Optical roots were first planted in the Lower...</p>
+                        <a href="#">READ MORE</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgbox">
+                        <a href="#"><img src="img/GQ.webp" alt=""></a>
+                    </div>
+                    <div class="textbox">
+                        <h4><a href="#">IN THE PRESS</a></h4>
+                        <h5><a href="#">"These Round Sunglasses Have Serious Main Character Energy" Says GQ</a></h5>
+                        <p>Take GQ's lead and get tintin' in The MILTZEN. This round classic pairs perfectly with spring hues and ‘tudes!
+                        Source: GQ
+                        Article Title: "These Round Sunglasses Have Serious Main Character Energy"</p>
+                        <a href="#">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div id="insta">
+            <div id="instabox">
+                <div class="imgbox"><img src="img/box1.jpg" alt=""></div>
+                <div class="imgbox"><img src="img/box2.jpg" alt=""></div>
+                <div class="imgbox"><img src="img/box3.jpg" alt=""></div>
+                <div class="imgbox"><img src="img/box4.jpg" alt=""></div>
+                <div class="imgbox"><img src="img/box5.jpg" alt=""></div>
+                <div class="imgbox"><img src="img/box6.jpg" alt=""></div>
+            </div>
+            <div id="instatext">
+                <h3>#MOSCOTMOMNETS</h3>
+                <p>SHOP THE LOOKS</p>
+            </div>
+            <div id="instabox2">
+                <div class="imgbox"><img src="img/box7.jpg" alt=""></div>
+                <div class="imgbox"><img src="img/box8.jpg" alt=""></div>
+            </div>
+        </div>
+
+        <div id="join">
+            <div id="container">
+                <div id="joinbox1"><h3>JOIN THE FAMILY</h3></div>
+                <div id="joinbox2"><p>Enjoy 10% off your first online purchase and stay up to date on all things MOSCOT.</p></div>
+                <div id="joinbox3">
+                    <input type="email" id="newsletter" name="contact" value="enter email">
+                    <button type="submit">SUBSCRIBE</button>
+                    <span>See our<a href="">Privacy Policy</a></span>
+                </div>
+            </div>
+        </div>
     </section>
     
-    <footer></footer>
+    <footer>
+        <div id="wrap">
+            <div id="footbox1">
+                <div class="lfoot">
+                    <p>COMPANY</p>
+                    <ul>
+                        <li><a href>Our Story</a></li>
+                        <li><a href>Shop Locations</a></li>
+                        <li><a href>Virtual Appointment</a></li>
+                        <li><a href>Eyecare</a></li>
+                        <li><a href>Charity</a></li>
+                        <li><a href>EU Wholesale</a></li>
+                        <li><a href>US Wholesale</a></li>
+                    </ul>
+                </div>
+                <div class="lfoot">
+                    <p>BRAND</p>
+                    <ul>
+                        <li><a href>Size & Fit</a></li>
+                        <li><a href>Craftsmanship</a></li>
+                        <li><a href>Reviews</a></li>
+                        <li><a href>Blog</a></li>
+                        <li><a href>Press</a></li>
+                        <li><a href>Lookbook</a></li>
+                    </ul>
+                </div>
+                <div class="lfoot">
+                    <p>HELP</p>
+                    <ul>
+                        <li><a href>Shipping & Returns</a></li>
+                        <li><a href>Repairs</a></li>
+                        <li><a href>Warranty</a></li>
+                        <li><a href>FAQ</a></li>
+                        <li><a href>Careers</a></li>
+                        <li><a href>Sitemap</a></li>
+                        <li><a href>Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="footbox2">
+                <div id="scription">
+                    <h3>ASK A MOSCOT FRAME FIT SPECIALIST</h3>
+                    <p>Whether you’re a MOSCOT collector or visiting for the very first time, we’re here to assist!</p>
+                </div>
+                <div id="contact">
+                    <div class="contactbox">
+                        <a href=""><img src="img/contact1.webp" alt=""></a>
+                        <a href="">(866) MOSCOTS</a>
+                    </div>
+                    <div class="contactbox">
+                        <a href=""><img src="img/contact2.png" alt=""></a>
+                        <a href="">support@moscot.com</a>
+                    </div>
+                    <div class="contactbox">
+                        <a href=""><img src="img/contact3.png" alt=""></a>
+                        <a href="">Chat With Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footfoot">
+            <div id="sns">
+                <ul>
+                    <li>
+                        <a href="">
+                            <svg focusable="false" width="9" height="17" class="icon icon--facebook   " viewBox="0 0 9 17">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.486 16.2084L2.486 8.81845H0L0 5.93845L2.486 5.93845L2.486 3.81845C2.38483 2.79982 2.73793 1.78841 3.45107 1.05407C4.16421 0.319722 5.16485 -0.0628415 6.186 0.00844868C6.9284 0.00408689 7.67039 0.0441585 8.408 0.128449V2.69845L6.883 2.69845C6.4898 2.61523 6.08104 2.73438 5.79414 3.01585C5.50724 3.29732 5.3803 3.70373 5.456 4.09845L5.456 5.93845H8.308L7.936 8.81845H5.46L5.46 16.2084H2.486Z" fill="currentColor"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg focusable="false" width="16" height="16" class="icon icon--instagram   " viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C5.827 0 5.555.01 4.702.048 3.85.087 3.269.222 2.76.42a3.921 3.921 0 00-1.417.923c-.445.444-.719.89-.923 1.417-.198.509-.333 1.09-.372 1.942C.01 5.555 0 5.827 0 8s.01 2.445.048 3.298c.039.852.174 1.433.372 1.942.204.526.478.973.923 1.417.444.445.89.719 1.417.923.509.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.445-.01 3.298-.048c.852-.039 1.433-.174 1.942-.372a3.922 3.922 0 001.417-.923c.445-.444.719-.89.923-1.417.198-.509.333-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.298c-.039-.852-.174-1.433-.372-1.942a3.922 3.922 0 00-.923-1.417A3.921 3.921 0 0013.24.42c-.509-.198-1.09-.333-1.942-.372C10.445.01 10.173 0 8 0zm0 1.441c2.136 0 2.39.009 3.233.047.78.036 1.203.166 1.485.276.374.145.64.318.92.598.28.28.453.546.598.92.11.282.24.705.276 1.485.038.844.047 1.097.047 3.233s-.009 2.39-.047 3.233c-.036.78-.166 1.203-.276 1.485-.145.374-.318.64-.598.92-.28.28-.546.453-.92.598-.282.11-.705.24-1.485.276-.844.038-1.097.047-3.233.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.479 2.479 0 01-.92-.598 2.478 2.478 0 01-.598-.92c-.11-.282-.24-.705-.276-1.485-.038-.844-.047-1.097-.047-3.233s.009-2.39.047-3.233c.036-.78.166-1.203.276-1.485.145-.374.318-.64.598-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.844-.038 1.097-.047 3.233-.047zm0 9.226a2.667 2.667 0 110-5.334 2.667 2.667 0 010 5.334zm0-6.775a4.108 4.108 0 100 8.216 4.108 4.108 0 000-8.216zm5.23-.162a.96.96 0 11-1.92 0 .96.96 0 011.92 0z" fill="currentColor"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg focusable="false" width="12" height="16" class="icon icon--pinterest   " viewBox="0 0 12 16">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.8042 0.00123531C8.79537 -0.0442356 10.6685 1.16769 11.5498 3.29299C11.8407 3.99433 12.1516 5.28439 11.9181 6.35474C11.825 6.78208 11.7985 7.22812 11.6726 7.63086C11.4163 8.4496 11.0829 9.17441 10.6413 9.79945C10.0418 10.6486 9.13196 11.2212 7.98951 11.5091C6.97899 11.7637 6.04959 11.3826 5.50954 10.9732C5.33747 10.843 5.10674 10.6728 5.04304 10.4377C5.03488 10.4377 5.0267 10.4377 5.01853 10.4377C4.97972 10.8669 4.81532 11.3224 4.69924 11.7135C4.53858 12.2545 4.50733 12.8146 4.3064 13.3208C4.08349 13.8828 3.81274 14.3978 3.52072 14.8776C3.36739 15.1292 2.94427 15.9904 2.63675 16C2.60311 15.9354 2.58964 15.9105 2.58761 15.796C2.48858 15.6383 2.55757 15.3724 2.51393 15.1578C2.44604 14.8236 2.39317 14.2217 2.46491 13.8824C2.46491 13.7038 2.46491 13.5248 2.46491 13.3465C2.54397 12.9786 2.54085 12.6015 2.63675 12.2494C2.84537 11.4824 2.96145 10.6699 3.17692 9.87611C3.38398 9.11352 3.57396 8.27939 3.74172 7.50321C3.77957 7.32789 3.56652 6.82389 3.52072 6.63572C3.37628 6.04186 3.48624 5.21874 3.66805 4.77269C3.89698 4.21111 4.56717 3.3535 5.43589 3.57359C6.13407 3.75039 6.57846 4.50528 6.34437 5.46192C6.09862 6.46589 5.7798 7.3653 5.5587 8.37035C5.50173 8.62933 5.59968 8.90442 5.65687 9.05958C5.86357 9.61934 6.49037 10.163 7.32652 9.95278C8.59396 9.63365 9.15431 8.48627 9.53645 7.24791C9.63981 6.91302 9.62743 6.59647 9.70831 6.22709C9.87894 5.44763 9.80648 4.28411 9.56098 3.67556C9.16753 2.70023 8.43329 2.07518 7.42471 1.73624C7.1465 1.68526 6.86819 1.63427 6.58988 1.58329C6.12397 1.47655 5.23532 1.63685 4.92023 1.73624C3.51171 2.18156 2.63952 2.92544 2.09658 4.26247C1.91177 4.71767 1.81046 5.17911 1.77741 5.81884C1.76913 5.8955 1.76094 5.97217 1.75278 6.04883C1.86153 6.62068 1.87259 6.99959 2.09658 7.42657C2.20715 7.63711 2.46971 7.8029 2.51393 8.06444C2.54001 8.2185 2.42705 8.45105 2.39125 8.57467C2.33705 8.76137 2.35676 8.97522 2.26844 9.13625C2.10873 9.42678 1.67383 9.20852 1.48275 9.08491C0.489307 8.44373 -0.329526 6.5895 0.132284 4.79837C0.20342 4.5218 0.206915 4.28118 0.304126 4.03285C0.906661 2.49554 1.80565 1.55101 3.10325 0.741098C3.58947 0.437749 4.24511 0.287354 4.84657 0.128885C5.16574 0.0863481 5.48503 0.0437917 5.8042 0.00123531Z" fill="currentColor"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg fill="none" focusable="false" width="18" height="13" class="icon icon--youtube   " viewBox="0 0 18 13">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.0325 0.369454C16.807 0.572743 17.4168 1.17173 17.6238 1.9324C18 3.31101 18 6.1875 18 6.1875C18 6.1875 18 9.06389 17.6238 10.4427C17.4168 11.2033 16.807 11.8023 16.0325 12.0056C14.6288 12.375 9 12.375 9 12.375C9 12.375 3.37122 12.375 1.96752 12.0056C1.19311 11.8023 0.583159 11.2033 0.376159 10.4427C0 9.06389 0 6.1875 0 6.1875C0 6.1875 0 3.31101 0.376159 1.9324C0.583159 1.17173 1.19311 0.572743 1.96752 0.369454C3.37122 0 9 0 9 0C9 0 14.6288 0 16.0325 0.369454ZM11.8636 6.1876L7.1591 8.79913V3.57588L11.8636 6.1876Z" fill="currentColor"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg fill="none" focusable="false" width="14" height="16" class="icon icon--tiktok   " viewBox="0 0 14 16">
+                                <path d="M13.6893 6.47331C13.5586 6.48602 13.4273 6.49268 13.296 6.49327C11.8552 6.49347 10.5114 5.76723 9.72211 4.56182V11.1389C9.72211 13.8236 7.54571 16 4.86099 16C2.17627 16 -0.00012207 13.8236 -0.00012207 11.1389C-0.00012207 8.45417 2.17627 6.27777 4.86099 6.27777C4.96247 6.27777 5.06166 6.28689 5.16143 6.29317V8.68866C5.06166 8.67669 4.96361 8.65845 4.86099 8.65845C3.49077 8.65845 2.37998 9.76923 2.37998 11.1395C2.37998 12.5097 3.49077 13.6205 4.86099 13.6205C6.23148 13.6205 7.44177 12.5407 7.44177 11.1702L7.46571 0H9.75745C9.97355 2.05512 11.6307 3.66035 13.6916 3.81102V6.47331" fill="currentColor"></path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="term">
+                <div id="copyright">© 2023 MOSCOT</div>
+                <ul>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Accessibility</a></li>
+                    <li><a href="">Conformity</a></li>
+                    <li><a href="">Terms of Use</a></li>
+                    <li><a href="">Refund Policy</a></li>
+                    <li><a href="">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 </body>
 

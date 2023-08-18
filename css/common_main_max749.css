@@ -1,0 +1,278 @@
+@charset "utf-8";
+
+@media (max-width:749px) {
+
+    .yellow {
+        width: 100%;
+        height: 39.703px;
+        background-color: rgb(255, 205, 3);
+    }
+
+    .yellow>.shipping {
+        width: 495px;
+        height: 100%;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 15px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        -webkit-text-stroke: 0.2px black;
+    }
+
+    .black {
+        width: 100%;
+        height: 73px;
+        background-color: #000;
+    }
+
+    .black>.container {
+        max-width: 1520px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 40px;
+    }
+
+    .black>.container>#list {
+        width: 344px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .black>.container>#list>a {
+        text-decoration: none;
+        color: #fff;
+        margin-right: 15px;
+    }
+
+    .black>.container>.logo {
+        width: 344px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .black>.container>.logo>a>svg {
+        max-width: 171px;
+    }
+
+    .black>.container>nav {
+        width: 630px;
+        display: none;
+    }
+
+    .black>.container>nav>ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .black>.container>nav>ul>li>a {
+        text-decoration: none;
+        color: #fff;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+    }
+
+    .black>.container>.link {
+        width: 344px;
+    }
+
+    .black>.container>.link>.linkicons {
+        width: 90px;
+        height: auto;
+        float: right;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .black>.container>.link>.linkicons>#lan {
+        width: 93px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .black>.container>.link>.linkicons>#lan>.currency {
+        color: #fff;
+        font-family: "Courier New", Courier, monospace;
+        display: none;
+    }
+
+    .black>.container>.link>.linkicons>a {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+    }
+
+    .black>.container>.link>.linkicons>.search {
+        display: none;
+    }
+
+    footer {
+        width: 100%;
+        height: 396px;
+        padding: 60px 0px 24px 0px;
+        background-color: #FFCD03;
+    }
+
+    footer>#wrap {
+        width: 95%;
+        height: 273px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    footer>#wrap>#footbox1 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    footer>#wrap>#footbox1>.lfoot {
+        width: 203px;
+        height: 237px;
+        padding-top: 36px;
+    }
+
+    footer>#wrap>#footbox1>.lfoot>p {
+        font-size: 12px;
+        font-family: arial;
+        font-weight: bold;
+        margin-bottom: 12px;
+        line-height: 30px;
+    }
+
+    footer>#wrap>#footbox1>.lfoot>ul>li {
+        margin-bottom: 5px;
+    }
+
+    footer>#wrap>#footbox1>.lfoot>ul>li>a {
+        text-decoration: none;
+        color: #000;
+        font-size: 13px;
+        font-family: "Courier New", Courier, monospace;
+        -webkit-text-stroke: 0.2px black;
+        line-height: 20px;
+        transition: 0.25s;
+    }
+
+    footer>#wrap>#footbox1>.lfoot>ul>li>a:hover {
+        opacity: 0.5;
+    }
+
+    footer>#wrap>#footbox2 {
+        width: 50%;
+        height: 200px;
+        border-left: 1px solid #000;
+        padding: 36px 0 36px 0px;
+    }
+
+    footer>#wrap>#footbox2>#scription {
+        width: 422px;
+        margin: 0 auto;
+    }
+
+    footer>#wrap>#footbox2>#scription>h3 {
+        font-size: 20px;
+        font-family: arial;
+        margin-bottom: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    footer>#wrap>#footbox2>#scription>p {
+        font-size: 13px;
+        font-family: "Courier New", Courier, monospace;
+        text-align: center;
+        -webkit-text-stroke: 0.2px black;
+    }
+
+    footer>#wrap>#footbox2>#contact {
+        width: 484px;
+        height: 80px;
+        padding-top: 30px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer>#wrap>#footbox2>#contact>.contactbox {
+        width: 150px;
+        height: 80px;
+        text-align: center;
+    }
+
+    footer>#wrap>#footbox2>#contact>.contactbox>a>img {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 13px;
+    }
+
+    footer>#wrap>#footbox2>#contact>.contactbox>a {
+        display: block;
+        text-decoration: none;
+        font-size: 13px;
+        font-family: "Courier New", Courier, monospace;
+        color: #000;
+    }
+
+    footer>#footfoot>#sns {
+        width: 95%;
+        height: 20px;
+        margin: 44px auto 38px;
+    }
+
+    footer>#footfoot>#sns>ul {
+        margin: 0 auto;
+        width: 276px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer>#footfoot>#sns>ul>li>a>svg {
+        color: #000;
+        width: 20px;
+        height: 20px;
+    }
+
+    footer>#footfoot>#term {
+        width: 869px;
+        height: 21px;
+        margin-top: 15px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 14px;
+        -webkit-text-stroke: 0.2px black;
+    }
+
+    footer>#footfoot>#term>#copyright {
+        width: 130px;
+        height: 100%;
+    }
+
+    footer>#footfoot>#term>ul {
+        margin: 0 auto;
+        width: 800px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer>#footfoot>#term>ul>li>a {
+        text-decoration: none;
+        margin-left: 20px;
+        color: #000;
+    }
+}
