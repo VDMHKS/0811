@@ -139,7 +139,13 @@
 
     #hidelist {
         display: none;
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        opacity: 0.8;
     }
+
+
 
     footer {
         width: 100%;
