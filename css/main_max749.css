@@ -72,10 +72,11 @@
        }
 
        section>#favorite>#content>#head>h3 {
-              font-size: 28px;
+              font-size: 20px;
               font-weight: bold;
               line-height: 1;
               font-family: arial;
+              text-align: center;
        }
 
        section>#favorite>#content>#main {

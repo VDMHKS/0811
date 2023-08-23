@@ -13,7 +13,7 @@
        }
 
        #content_wrap>#title {
-              width: 95%;
+              width: 100%;
               display: flex;
               justify-content: space-between;
               margin: 0 auto;
@@ -21,7 +21,7 @@
        }
 
        #content_wrap>#title>h5 {
-              font-size: 30px;
+              font-size: 25px;
               font-family: "Courier New", Courier, monospace;
               ;
               line-height: 50px;
@@ -34,6 +34,7 @@
               color: #000;
               display: block;
               font-family: "Courier New", Courier, monospace;
+              font-size: 10px;
        }
 
        #content_wrap>main {
