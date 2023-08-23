@@ -121,15 +121,20 @@
         padding: 20px 0px;
         border-bottom: 1px solid #cac9c9;
         letter-spacing: 1px;
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
         line-height: 30px;
-
     }
 
+    #hidelist > ul > li:hover {
+        background-color: #FFCD03;
+        cursor: pointer;
+    }
+    
     #hidelist > ul > li > a {
         text-decoration: none;
         color: #000;
+        margin: 0px 15px;
     }
 
     #hidelist {
@@ -137,7 +142,6 @@
         position: absolute;
         background-color: #fff;
         width: 100%;
-        opacity: 0.8;
     }
 
     footer {
