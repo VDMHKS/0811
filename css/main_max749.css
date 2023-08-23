@@ -62,7 +62,7 @@
        }
 
        section>#favorite>#content>#head {
-              width: 420px;
+              width: auto;
               height: 30px;
               display: flex;
               justify-content: space-between;
@@ -105,6 +105,7 @@
        section>#favorite>#content>#main>ul>li>.imgbox>img {
               width: 100%;
               height: auto;
+              box-sizing: border-box;
        }
 
        section>#favorite>#content>#main>ul>li>.imgbox>img:hover {
@@ -222,6 +223,7 @@
        section>#product>#content>#main>.imgbox>img {
               width: 100%;
               height: auto;
+              box-sizing: border-box;
        }
 
        section>#product>#content>#main>.imgbox>img:hover {
