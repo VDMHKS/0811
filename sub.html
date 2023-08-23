@@ -16,7 +16,17 @@
     <link href="css/sub_min1000.css" rel="stylesheet">
     <link href="css/sub_min1200.css" rel="stylesheet">
 
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.0.min.js"></script>
 
+    <script>
+
+    $(function(){
+        $(".hamburger").click(function(){
+        $("#hidelist").slideToggle();
+    });
+    });
+
+    </script>
         
 </head>
 <body>
@@ -30,12 +40,12 @@
         <div class="black">
             <div class="container">
                 <div id="list">
-                    <a href="#" class="search">
-                        <svg focusable="false" width="18" height="14" class="icon icon--header-hamburger   " viewBox="0 0 18 14">
+                    <a href="#">
+                        <svg focusable="false" width="18" height="14" viewBox="0 0 18 14" class="hamburger">
                             <path d="M0 1h18M0 13h18H0zm0-6h18H0z" fill="none" stroke="currentColor" stroke-width="2"></path>
                         </svg>
                     </a>
-                    <a href="#" class="search">
+                    <a href="sub.html" target="_self" class="search">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="white" style="margin-left: 3px;">
                             <path d="M19.7878 18.079L24.9631 23.253L23.2533 24.9628L18.0792 19.7875C16.154 21.3308 13.7594 22.1703 11.292 22.1667C5.28899 22.1667 0.416992 17.2947 0.416992 11.2917C0.416992 5.28875 5.28899 0.416748 11.292 0.416748C17.295 0.416748 22.167 5.28875 22.167 11.2917C22.1705 13.7592 21.3311 16.1538 19.7878 18.079ZM17.3639 17.1824C18.8974 15.6054 19.7538 13.4914 19.7503 11.2917C19.7503 6.61791 15.9646 2.83341 11.292 2.83341C6.61816 2.83341 2.83366 6.61791 2.83366 11.2917C2.83366 15.9644 6.61816 19.7501 11.292 19.7501C13.4917 19.7535 15.6056 18.8971 17.1826 17.3636L17.3639 17.1824V17.1824Z" fill="white"></path>
                         </svg>
@@ -68,7 +78,7 @@
 
                             <span class="currency">USD $</span>
                         </div>
-                        <a href="#">
+                        <a href="#" class="mypage">
                             <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="white">
                             <path d="M14.5003 23.2001C11.4795 23.2001 8.80907 21.6534 7.25033 19.3334C7.28658 16.9167 12.0837 15.5876 14.5003 15.5876C16.917 15.5876 21.7141 16.9167 21.7503 19.3334C20.9515 20.5229 19.8724 21.4977 18.6081 22.172C17.3439 22.8463 15.9332 23.1993 14.5003 23.2001ZM14.5003 6.04175C15.4617 6.04175 16.3838 6.42367 17.0636 7.10349C17.7434 7.78331 18.1253 8.70534 18.1253 9.66675C18.1253 10.6282 17.7434 11.5502 17.0636 12.23C16.3838 12.9098 15.4617 13.2917 14.5003 13.2917C13.5389 13.2917 12.6169 12.9098 11.9371 12.23C11.2572 11.5502 10.8753 10.6282 10.8753 9.66675C10.8753 8.70534 11.2572 7.78331 11.9371 7.10349C12.6169 6.42367 13.5389 6.04175 14.5003 6.04175ZM14.5003 2.41675C12.9135 2.41675 11.3423 2.72929 9.87623 3.33654C8.41022 3.94378 7.07816 4.83383 5.95612 5.95587C3.69005 8.22194 2.41699 11.2954 2.41699 14.5001C2.41699 17.7048 3.69005 20.7782 5.95612 23.0443C7.07816 24.1663 8.41022 25.0564 9.87623 25.6636C11.3423 26.2709 12.9135 26.5834 14.5003 26.5834C17.705 26.5834 20.7785 25.3104 23.0445 23.0443C25.3106 20.7782 26.5837 17.7048 26.5837 14.5001C26.5837 7.818 21.1462 2.41675 14.5003 2.41675Z" fill="white"></path>
                             </svg>
@@ -109,6 +119,16 @@
             </div>
     </header>
 
+    <div id="hidelist">
+        <ul>
+            <li><a href="sub.html" target="_self">EYEGLASSES</a></li>
+            <li><a href="sub.html" target="_self">SUNGLASSES</a></li>
+            <li><a href="sub.html" target="_self">COLLECTOINS</a></li>
+            <li><a href="sub.html" target="_self">STORY</a></li>
+            <li><a href="sub.html" target="_self">SHOPS</a></li>
+        </ul>
+    </div>
+    
     <div id="content_wrap">
         <div id="title">
             <h5>THE MOSCOT STORY</h5>

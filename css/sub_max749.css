@@ -86,6 +86,7 @@
               font-family: "Courier New", Courier, monospace;
               font-size: 15px;
               -webkit-text-stroke: 0.2px black;
+              margin: 10px 0px;
        }
 
        #content_wrap>main>.box1>#textbox1>a {
@@ -132,6 +133,7 @@
               font-family: "Courier New", Courier, monospace;
               font-size: 15px;
               -webkit-text-stroke: 0.2px black;
+              margin: 10px 0px;
        }
 
        #content_wrap>main>.box1>#textbox2>a {
@@ -178,6 +180,7 @@
               font-family: "Courier New", Courier, monospace;
               font-size: 15px;
               -webkit-text-stroke: 0.2px black;
+              margin: 10px 0px;
        }
 
        #content_wrap>main>.box1>#textbox3>a {
@@ -344,6 +347,7 @@
 
        #content_wrap>#side>#foundation {
               width: 95%;
+              min-height: 500px;
               padding: 20px;
               border-bottom: 1px solid #eee;
        }

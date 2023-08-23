@@ -115,7 +115,7 @@
                 display: none;
         }
 
-        #list > ul > li {
+        #hidelist > ul > li {
                 font-family: arial;
                 font-size: 15px;
                 font-weight: bold;
@@ -125,9 +125,15 @@
                 width: 95%;
                 margin: 0 auto;
                 line-height: 30px;
+
+        }
+        
+        #hidelist > ul > li > a {
+                text-decoration: none;
+                color: #000;
         }
 
-        #list {
+        #hidelist {
                 display: none;
         }
 

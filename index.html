@@ -16,6 +16,17 @@
     <link href="css/main_min1000.css" rel="stylesheet">
     <link href="css/main_min1200.css" rel="stylesheet">
 
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.0.min.js"></script>
+
+    <script>
+
+    $(function(){
+        $(".hamburger").click(function(){
+        $("#hidelist").slideToggle();
+    });
+    });
+
+    </script>
 
 </head>
 
@@ -33,8 +44,8 @@
         <div class="black">
             <div class="container">
                 <div id="list">
-                    <a href="sub.html" target="_self" class="search">
-                        <svg focusable="false" width="18" height="14" class="icon icon--header-hamburger   " viewBox="0 0 18 14">
+                    <a href="#">
+                        <svg focusable="false" width="18" height="14" viewBox="0 0 18 14" class="hamburger">
                             <path d="M0 1h18M0 13h18H0zm0-6h18H0z" fill="none" stroke="currentColor" stroke-width="2"></path>
                         </svg>
                     </a>
@@ -112,13 +123,13 @@
             </div>
     </header>
 
-    <div id="list">
+    <div id="hidelist">
         <ul>
-            <li>EYEGLASSES</li>
-            <li>SUNGLASSES</li>
-            <li>COLLECTOINS</li>
-            <li>STORY</li>
-            <li>SHOPS</li>
+            <li><a href="sub.html" target="_self">EYEGLASSES</a></li>
+            <li><a href="sub.html" target="_self">SUNGLASSES</a></li>
+            <li><a href="sub.html" target="_self">COLLECTOINS</a></li>
+            <li><a href="sub.html" target="_self">STORY</a></li>
+            <li><a href="sub.html" target="_self">SHOPS</a></li>
         </ul>
     </div>
 
