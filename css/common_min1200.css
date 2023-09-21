@@ -23,6 +23,7 @@
                 width: 100%;
                 height: 73px;
                 background-color: #000;
+                position: sticky;
         }
 
         .black>.container {
