@@ -24,6 +24,7 @@
         height: 73px;
         background-color: #000;
         position: sticky;
+        top: 0;
     }
 
     .black>.container {
